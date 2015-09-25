@@ -32,7 +32,7 @@ public class Main {
             addresses[i] = address;
         }
 
-        System.out.println("Thanks! Sending " + numberToOrder + " " + itemsForSale[selectedItemToOrder] + "(s) to the following addresses: ");
+        System.out.println("Thanks! Sending " + numberToOrder + " " + itemsForSale[selectedItemToOrder - 1] + "(s) to the following addresses: ");
 
         for (int i = 0; i < addresses.length; i++)
         {
